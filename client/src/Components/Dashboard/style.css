@@ -1,0 +1,56 @@
+.topbar-container {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.topbar-container h4 {
+    font-size: large;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.topbar-name {
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.topbar-name h4 {
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.board-container {
+    display: flex;
+    justify-content: center;
+}
+
+.board-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+@media only screen and (max-width: 960px) {
+    .board-grid-container {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    .board-grid-container {
+        grid-template-columns: auto;
+    }
+}
+
+.add-board {
+    padding: 5px;
+    margin: 10px;
+}

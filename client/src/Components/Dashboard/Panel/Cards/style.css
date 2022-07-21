@@ -1,0 +1,29 @@
+.card-container {
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.card-container h4 {
+    font-weight: bold;
+}
+
+.card-container p {
+    font-size: medium;
+}
+
+.delete-card {
+    display: flex;
+    justify-content: right;
+}
+
+.delete-card-icon {
+    margin: 2px;
+    color: red;
+}
+
+.edit-card-icon {
+    margin: 2px;
+    color: blue;
+}

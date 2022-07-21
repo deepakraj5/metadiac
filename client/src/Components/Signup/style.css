@@ -1,0 +1,35 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 300px;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card-title h4 {
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    font-size: large;
+    font-weight: bold;
+}
+
+.signup-btn {
+    text-align: center;
+    padding: 10px;
+}
+
+.card-input {
+    padding: 10px;
+}
+
+.to-signin {
+    text-align: right;
+}
